@@ -14,23 +14,25 @@ This project aims to classify disaster-related tweets using NLP techniques and a
 Disaster tweet classification is critical for identifying real-time disaster events and aiding disaster response teams. This project processes a Kaggle-provided dataset and uses a Bidirectional LSTM model to achieve a validation accuracy of **79.3%**.
 
 ## Project Structure
-Disaster-Tweet-Classification/
-│
-├── data/                       # Folder for data files
-│   ├── submission.csv          # Submission file for Kaggle
-│
-├── notebooks/                  # Folder for Jupyter Notebooks
-│   ├── nlp_disaster_project.ipynb  # Main notebook with all steps
-│
-├── images/                     # Folder for visual outputs
-│   ├── leaderboard_screenshot.png  # Leaderboard screenshot
-│
-└── README.md                   # Project overview and details
+The repository contains the following files and directories:
+
+- **`data/`**
+  - `submission.csv`: Submission file for Kaggle.
+
+- **`notebooks/`**
+  - `nlp_disaster_project.ipynb`: Main Jupyter Notebook with all project steps.
+
+- **`images/`**
+  - `leaderboard_screenshot.png`: Screenshot of the Kaggle leaderboard showing the model's position.
+
+- **`README.md`**
+  - Overview and details of the project.
+
 
 ## Getting Started
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/Disaster-Tweet-Classification.git
+   git clone https://github.com/MehrdadNaderiCom/Disaster-Tweet-Classification.git
    cd Disaster-Tweet-Classification
 2. Open the notebook:
   jupyter notebook notebooks/nlp_disaster_project.ipynb
